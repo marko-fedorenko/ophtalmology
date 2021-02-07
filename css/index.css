@@ -18,3 +18,12 @@ nav.header-menu ul {
     flex-direction: row;
     list-style: none;
 } 
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration-color: blue;
+}
+h1 .small-h1 {
+    font-size: 20px;
+    font-weight: lighter;
+}
