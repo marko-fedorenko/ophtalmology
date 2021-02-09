@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 :root {
     font-family: 'Montserrat', sans-serif;
-    padding: 0;
+    max-width: 980px;
+    overflow-x:hidden;
+    position: relative;
+}
+
+body {
+    position: relative;
 }
 
 header {
@@ -10,20 +16,19 @@ header {
 }
 
 div.header-contacts {
-    margin-bottom: 15px;
+    margin-bottom: 1%;
 }
 
 img.header-logo {
-    display: flex;
-    width: 320px;
-    justify-content: flex-start;
-    margin: auto;
+    width: 60%;
+    margin: 10%;
 }
 
 nav {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
+    position: relative;
 }
 
 nav.header-menu {
@@ -40,7 +45,7 @@ nav ul li {
 }
 
 header button {
-    width: 90px;
-    height: 40px;
+    width: 20%;
+    height: 40%;
     margin: auto;
 }
