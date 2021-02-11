@@ -1,51 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 :root {
-    font-family: 'Montserrat', sans-serif;
-    max-width: 980px;
-    overflow-x:hidden;
-    position: relative;
+   font-family: 'Montserrat', sans-serif;
+   scroll-behavior: smooth;
+   max-width: 1980px;
+}
+.header-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-body {
-    position: relative;
+@media (max-width:620px) {
+    .header-contacts {
+    flex-direction: column;
+    align-items: center;
+    background: #f8f8f8;
+}
 }
 
-header {
+.under-header {
     display: flex;
     flex-direction: column;
-}
-
-div.header-contacts {
-    margin-bottom: 1%;
-}
-
-img.header-logo {
-    width: 60%;
-    margin: 10%;
-}
-
-nav {
-    display: flex;
-    flex-direction: row-reverse;
     justify-content: space-around;
-    position: relative;
 }
 
-nav.header-menu {
-    padding: 0;
+.big-h1 {
+    font-size: 52pt;
+    display: flex;
+    word-break: break-word;
+    flex-direction: column;
+    margin:20px;
 }
 
-.header-menu-list{
-    padding: 0;
+.small-h1 {
+    display: block;
+    font-size: 36pt;
+    margin:20px;
 }
 
-nav ul li {
-    list-style: none;
-    padding: 0;
+@media (min-width:1020px) {
+.under-header {
+    background: url(../img/background-under-header.jpg) 42.5% 99.75% / cover no-repeat;
+    height: 550px;
+}
+}
+@media (max-width:980px) {
+.under-header {
+    background: url(../img/background-under-header-2.jpg);
+    height: 550px;
+}
 }
 
-header button {
-    width: 20%;
-    height: 40%;
-    margin: auto;
+.btn-link {
+margin: 1px;
+border: solid;
+border-color: white;
+}
+
+button.btn.btn-success {
+    width: 150px;
+    margin:20px;
+}
+
+.emergency-call {
+    display: flex;
+    flex-direction: column;
+    background-color:#375bb1;
+    height: 400px;
+    word-break: break-word;
+    justify-content: space-around;
+}
+
+.emergency-call :first-child {
+    width: 100px;
+    margin-left: 40px;
+}
+.emergency-call :nth-last-child(2) {
+     margin-left: 40px;
+     font-size: 24px;
+     color: white;
+}
+
+.emergency-call :last-child {
+     margin-left: 20px;
+     font-size: 24px;
+     color: white;
+}
+
+.white-h2 {
+     margin-left: 40px;
+     font-weight: bold;
+     font-size: 36px;
+     color: white;
 }
