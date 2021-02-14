@@ -2,11 +2,18 @@
 :root {
    font-family: 'Montserrat', sans-serif;
    scroll-behavior: smooth;
-   max-width: 1980px;
+   max-width: 920px;
+   margin: auto;
 }
 .header-contacts {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    flex-basis: auto;
     justify-content: space-around;
 }
 
@@ -38,7 +45,25 @@
     margin:20px;
 }
 
-@media (min-width:1020px) {
+@media (max-width:620px) {
+   .big-h1 {
+    font-size: 32pt;
+    display: flex;
+    word-break: break-word;
+    flex-direction: column;
+    margin:20px; 
+}
+}
+
+@media (max-width:620px) {
+    .small-h1 {
+    display: block;
+    font-size: 18pt;
+    margin:18px;
+}
+}
+
+@media (min-width:980px) {
 .under-header {
     background: url(../img/background-under-header.jpg) 42.5% 99.75% / cover no-repeat;
     height: 550px;
