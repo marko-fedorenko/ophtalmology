@@ -188,4 +188,39 @@ h2#whatisbmt {
      text-align: center;
 }
 
+.current {
+    height: 450px;
+}
 
+@media (max-width:620px){
+    .current {
+    height: 300px;
+}
+}
+
+.carousel-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.next {
+    margin: 10px;
+    background:#73C50F;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 5;
+    border-color:#73C50F;
+    width: 120px;
+}
+.prev {
+    margin: 10px;
+    background:#73C50F;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 5;
+    border-color:#73C50F;
+    width: 120px;
+}
