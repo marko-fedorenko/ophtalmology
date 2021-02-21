@@ -118,3 +118,74 @@ button.btn.btn-success {
      font-size: 36px;
      color: white;
 }
+
+.easy-access {
+    display: flex;
+    flex-direction: column;
+    background-color:#446ccc;
+    height: 400px;
+    word-break: break-word;
+    justify-content: space-around;
+}
+
+.easy-access :first-child {
+    width: 100px;
+    margin-left: 40px;
+}
+.easy-access :nth-last-child(2) {
+     margin-left: 40px;
+     font-size: 24px;
+     color: white;
+}
+
+.easy-access :last-child {
+     margin-left: 20px;
+     font-size: 24px;
+     color: white;
+}
+
+.opening-hours {
+    display: flex;
+    flex-direction: column;
+    background-color:#f8f8f8;
+    height: 400px;
+    word-break: break-word;
+    justify-content: space-around;
+}
+
+.opening-hours :first-child {
+    width: 100px;
+    margin-left: 40px;
+}
+.opening-hours :nth-last-child(2) {
+     display: block;
+     font-weight: bold;
+     font-size: 36px;
+     color: grey;
+     margin-left: 10%;
+}
+
+.opening-hours :last-child {
+     margin-left: 40px;
+     font-size: 24px;
+     color: grey;
+}
+
+article.bloodcells {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bloodcells img {
+    width: 100%;
+}
+
+h2#whatisbmt {
+     font-size: 24px;
+     color: grey;
+     display: block;
+     text-align: center;
+}
+
+
