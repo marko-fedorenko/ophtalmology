@@ -57,3 +57,6 @@ function prevtImageDescription() {
 
 document.querySelector('.prev').addEventListener('click', prevtImageDescription)
 document.querySelector('.next').addEventListener('click', nextImageDescription)
+
+//----------
+
