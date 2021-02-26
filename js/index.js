@@ -39,3 +39,4 @@ function prevtImage() {
 document.querySelector('.prev').addEventListener('click', prevtImage)
 document.querySelector('.next').addEventListener('click', nextImage)
 //carousell end
+

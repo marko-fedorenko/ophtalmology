@@ -377,3 +377,19 @@ width: 50%;
 }
 
 }
+
+.our-doctors {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.solo-doctor {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    border: solid;
+    border-color: darkgray;
+    margin: 10px;
+    word-break: break-word;
+}
