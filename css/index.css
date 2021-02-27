@@ -423,9 +423,16 @@ width: 50%;
     list-style: none;
 }
 
+.disease-desc p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .disease-desc img {
     display: block;
-    width: 100%;
+    width: 50%;
+    margin:5px;
 }
 
 .consult {
