@@ -428,11 +428,22 @@ width: 50%;
     flex-direction: row;
     justify-content: space-around;
 }
-
 .disease-desc img {
     display: block;
     width: 50%;
     margin:5px;
+}
+
+@media (max-width:900px){
+   .disease-desc p {
+    display: flex;
+    flex-direction: column;
+} 
+.disease-desc img {
+    display: block;
+    width: 100%;
+    margin:5px;
+}
 }
 
 .consult {
